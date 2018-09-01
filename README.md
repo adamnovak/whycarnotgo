@@ -1,6 +1,6 @@
 # WhyCarNotGo: The world's simplest OBD-II scanner for ELM327-compatible interfaces
 
-**WhyCarNotGo** can report the Diagnostic Trouble Codes (DCT) that are making your car's check engine light turn on, potentially saving you an expensive trip to the mechanic.
+**WhyCarNotGo** can report the Diagnostic Trouble Codes (DTC) that are making your car's check engine light turn on, potentially saving you an expensive trip to the mechanic.
 
 WhyCarNotGo is based on the extremely useful [python-OBD library](https://github.com/brendan-w/python-OBD).
 
@@ -31,4 +31,8 @@ whycarnotgo
 ```
 [('P0441', 'Evaporative Emission System Incorrect Purge Flow'), ('P0455', 'Evaporative Emission System Leak Detected (large leak)')]
 ```
+
+## Future Development Goals
+
+- [ ] Allow DTC codes to be cleared (`mycargoesnow`)
 
