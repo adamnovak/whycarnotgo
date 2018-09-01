@@ -9,7 +9,7 @@ WhyCarNotGo is based on the extremely useful [python-OBD library](https://github
 ```
 git clone https://github.com/adamnovak/whycarnotgo.git
 cd whycarnotgo
-pip install --process-dependency-links --trusted-host github.com --no-cache-dir .
+pip install --process-dependency-links --trusted-host github.com .
 ```
 
 The extra weird pip arguments are necessary to install a python-OBD version that has fixed [#101](https://github.com/brendan-w/python-OBD/issues/101). You may also need to add `--user`, or run `pip` with `sudo`, depending on your environment.
