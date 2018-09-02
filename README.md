@@ -32,7 +32,10 @@ whycarnotgo
 [('P0441', 'Evaporative Emission System Incorrect Purge Flow'), ('P0455', 'Evaporative Emission System Leak Detected (large leak)')]
 ```
 
-## Future Development Goals
+5. When you have resolved the problem, clear the codes and turn off the check engine light:
 
-- [ ] Allow DTC codes to be cleared (`mycargoesnow`)
+```
+ifixedmycar
+```
 
+**DO NOT DO THIS if you did not actually resolve the problem!** You are the only person responsible if you clear a code that indicates a dangerous condition without fixing it properly, and that condition later kills you or your vehicle.

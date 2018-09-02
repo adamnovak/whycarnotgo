@@ -28,6 +28,6 @@ setup(
     dependency_links=['git+https://github.com/adamnovak/python-OBD.git@3f1804fe4ca3f01803a5d011d3ce389669a5a914#egg=obd-0.6.1-adamnovak'],
     py_modules=['whycarnotgo'],
     entry_points={
-        'console_scripts': ['whycarnotgo=whycarnotgo:main']
+        'console_scripts': ['whycarnotgo=whycarnotgo:main', 'ifixedmycar=whycarnotgo:clear']
     }
 )
